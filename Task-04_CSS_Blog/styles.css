@@ -1,0 +1,63 @@
+html,body {
+    width: 100%;
+    margin: 0;
+    font-family: "Zen Kurenaido", sans-serif;
+}
+
+.main_title {
+    width: 100%;
+    height: auto;
+    background: yellow;
+    color: black;
+    text-align: center;  
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+
+.contact {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 10px; 
+}
+
+.main, .last_posts, .week {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.week {
+    width: 20%;
+    padding: 0 0 0 10px;
+}
+
+.nav_week {
+    text-align: left;
+}
+
+.last_posts {
+    width: auto;
+    height: auto;
+    padding: 0 15px 15px 15px;
+    text-align: right;
+    border: 3px dashed green;
+}
+
+.main {
+    width: 60%;
+    border-left: 2px solid green ;
+    padding-left: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
