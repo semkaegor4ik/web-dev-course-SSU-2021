@@ -1,0 +1,76 @@
+body {
+    color: #3a3534;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EDFADE;
+}
+
+.header {
+    background-color: #BBC9B4;
+    width: 70%;
+    padding: 1.5rem 2rem;
+    margin: 20px auto;
+    border-radius: 20px; 
+    font-size: 24px;
+    text-align: center;
+}
+
+.sectoin {
+    background-color: white;
+    width: 70%;
+    padding: 1.5rem 2rem;
+    margin: 20px auto;
+    border-radius: 20px; 
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.result {
+    color: #388161;
+    font-size: 22px;
+    margin: 7px 0;
+    overflow-wrap: break-word;
+}
+.reset {
+    background-color: #D42F00;
+    border-color: #D42F00;
+    color: whitesmoke;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-right: 16px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+}
+.button {
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-right: 16px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #388161;
+    border-color: #388161;
+    color: whitesmoke;
+}
+
+#word, #binary {
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #3a3534;
+    cursor: pointer;
+    width: 40%;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-top: 16px;
+}
